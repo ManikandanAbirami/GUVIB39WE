@@ -1,0 +1,7 @@
+React Uses a Virtual DOM:
+
+--> Virtual DOM means, a tree of JavaScript objects that represent the "actual DOM".
+
+--> use efficient diffing algorithm
+
+//State, Props, hooks
