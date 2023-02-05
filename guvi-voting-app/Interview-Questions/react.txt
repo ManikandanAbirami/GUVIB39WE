@@ -23,4 +23,10 @@ ReactJS:
 --> A Multi-Page Applications (MPA) - browser reloads the contents of the page completely and
     downloads all the resources again.
 
+Components:
+
+Components are just JavaScript way of writing independent, reusable, and dynamic code.
+
+Types of components: Class Components & Functional Components
+
 //State, Props, hooks
