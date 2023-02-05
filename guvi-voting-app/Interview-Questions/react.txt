@@ -1,7 +1,26 @@
-React Uses a Virtual DOM:
+ReactJS:
+
+--> React is JavaScript library for building user-interfaces
+
+--> React was introduced by Facebook in 2011
+
+--> React helps us to build interactive user-interfces called web applications
+
+--> Uses a Virtual DOM
 
 --> Virtual DOM means, a tree of JavaScript objects that represent the "actual DOM".
 
---> use efficient diffing algorithm
+--> use efficient diffing algorithm - React follows the concept of Virtual DOM, which makes DOM
+                                      manipulation superfast and easy.
+
+--> ECMAScript(ES6) - latest features of JavaScript.
+
+--> Babel helps in converting the ES6 code into ES5
+
+--> A Single-Page Application (SPA) works on the browser and does not require a page to be reloaded
+    completely.
+
+--> A Multi-Page Applications (MPA) - browser reloads the contents of the page completely and
+    downloads all the resources again.
 
 //State, Props, hooks
