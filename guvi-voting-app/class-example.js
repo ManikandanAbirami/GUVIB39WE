@@ -14,5 +14,15 @@ class Vehicle {
   }
 }
 
-let obj = new Vehicle("RE");
-console.log(obj.addition(12, 13));
+class TwoWheeler extends Vehicle {
+  constructor(name) {
+    super("RE");
+    console.log("Displaying Two wheeler name: " + name);
+  }
+}
+
+// let obj = new Vehicle("RE");
+// console.log(obj.addition(12, 13));
+
+let obj2wheeler = new TwoWheeler("Yamaha");
+console.log(obj2wheeler.addition(10, 10));
