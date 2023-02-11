@@ -30,3 +30,33 @@ Components are just JavaScript way of writing independent, reusable, and dynamic
 Types of components: Class Components & Functional Components
 
 //State, Props, hooks
+
+--> JSX - It is HTML-looking syntax, actually it is XML extension to ECMAScript specification.
+(HTML + JS + XML)
+
+--> Instead of using pure JS for building DOM elements, you can use JSX to build DOM elements which
+    gives flexibility to developers to use familiar syntax(HTML)
+
+Difference between HTML and JSX:
+
+--> JSX properties are not similar to HTML attribues
+--> Case sensitive
+--> Closing tag required
+--> JSX elements must be wrapped in an enclosing tag
+
+
+--> React.createElement
+--> ReactDOM.render(arg1, arg2); arg1 - WHAT to render, arg2 - WHERE to render
+
+props:
+
+A JS object passed as a parameter to functional components.
+
+
+
+
+
+Question:
+
+1. HTML inside flower braces
+2. Empty element
