@@ -26,10 +26,10 @@ function Comment({ username = "Hello!!! ", time, children }) {
 
 function Recomment(props) {
   return (
-    <section>
+    <div>
       {props.children}
       <p>{props.name} commented at {props.time}</p>
 
-    </section>
+    </div>
   )
 }

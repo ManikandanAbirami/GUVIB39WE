@@ -46,11 +46,21 @@ Difference between HTML and JSX:
 
 
 --> React.createElement
---> ReactDOM.render(arg1, arg2); arg1 - WHAT to render, arg2 - WHERE to render
+--> ReactDOM.render(arg1, arg2); arg1 - WHAT to render, arg2 - WHERE to render -
+    Is used to write the component to the DOM.
 
 props:
 
 A JS object passed as a parameter to functional components.
+
+state:
+
+--> State is something that is controlled within a component, unlike props, which are controlled
+    by a parent component.
+--> State can be maintained inside a class component only.
+--> State is always initialised inside the class constructor
+--> setState() method is used to set the state.
+--> Also, a change in state call the render() method again.
 
 
 
