@@ -1,14 +1,19 @@
 import React from 'react';
 
-class ProductList extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello, friend! I am a basic React Component.
-        !!!!!!!!!!!!!!!!!!!
-      </div>
-    )
-  }
+export default function Home() {
+  return (
+    <Comment username="Manikandan" time={(new Date()).toString()}>
+      <h1>Hello Everyone!!</h1>
+      <p>This is a new comment!</p>
+    </Comment>
+  )
 }
 
-export default ProductList;
+function Comment({ username, time, children }) {
+  return (
+    <section>
+      <p>{username} commented at {time}</p>
+      {children}
+    </section>
+  )
+}
