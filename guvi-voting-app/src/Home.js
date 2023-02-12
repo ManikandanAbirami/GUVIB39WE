@@ -19,8 +19,10 @@ export default function Home() {
       <Recomment name="GUVIB39-WE" time={(new Date()).toString()}>
         <h1>This is Recomment section!!</h1>
       </Recomment>
-      <input onChange={change} value={val}></input>
-      <button onClick={click}>Click</button>
+      Value 1: <input onChange={change} value={val}></input> <br />
+      Value 2: <input onChange={change} value={val}></input> <br />
+      <button onClick={click}>Add</button> <br />
+      Result: <input onChange={change} value={val}></input>
     </div>
   )
 }
