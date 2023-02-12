@@ -8,7 +8,8 @@ import Homenew from './Home-new';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Homenew />
+    {/* <Homenew /> */}
+    <Home></Home>
   </React.StrictMode>
 );
 

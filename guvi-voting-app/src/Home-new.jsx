@@ -5,15 +5,23 @@ class Homenew extends Component {
   constructor() {
     super();
     this.state = {
-      id: 0,
+      age: '',
       name: '',
       phone: ''
     }
   }
+  changeName = () => {
+    this.setState({ name: "Guvi", age: 12, phone: '1212121212' })
+  }
   render() {
+    console.log("Render method is called!!!!!");
     return (
       <div>
         <Org name="Jack" designation="CTO" tagline="Thoughts makes things"></Org>
+        <h2>My name is {this.state.name}</h2>
+        <p>My ph no is {this.state.phone}</p>
+        <p>My age is {this.state.age}</p>
+        <button type="button" onClick={this.changeName}>Change</button>
       </div>
     )
   }

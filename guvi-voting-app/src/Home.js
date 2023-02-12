@@ -1,6 +1,15 @@
 import React from 'react';
+import { useState } from 'react';
 
 export default function Home() {
+  const [val, setVal] = useState("Hi");
+  const click = () => {
+    alert(val);
+  }
+  const change = event => {
+    console.log(event.target.value);
+    setVal(event.target.value);
+  }
   return (
     <div>
       <Comment time={(new Date()).toString()}>
@@ -10,6 +19,8 @@ export default function Home() {
       <Recomment name="GUVIB39-WE" time={(new Date()).toString()}>
         <h1>This is Recomment section!!</h1>
       </Recomment>
+      <input onChange={change} value={val}></input>
+      <button onClick={click}>Click</button>
     </div>
   )
 }
