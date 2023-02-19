@@ -1,0 +1,18 @@
+Steps to create server in Node.js:
+----------------------------------
+
+1. Store 'http' module in a valiable called 'http' by using require function
+2. Define a port
+3. Create a server user 'createServer' function.
+4. Make server to listen to the pre-defined port.
+
+Routing:
+-------
+
+1. Not all client requests are the same.
+2. We should creating a API that responds differently depending on the requested url path.
+
+Express.js:
+----------
+
+1. Web server for Node.js
