@@ -16,3 +16,11 @@ Express.js:
 ----------
 
 1. Web server for Node.js
+
+HTTP methods:
+-------------
+
+GET - Read
+POST - Create
+PUT - Update
+DELETE - Delete
