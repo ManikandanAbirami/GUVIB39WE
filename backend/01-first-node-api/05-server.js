@@ -8,6 +8,7 @@ const app = express();
 app.get('/', respondText);
 app.get('/json', respondJSON);
 app.get('/test', respondInputs);
+app.get('*', respondNotFound);
 
 
 function respondText(req, res) {
