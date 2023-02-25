@@ -1,0 +1,46 @@
+Steps to create server in Node.js:
+----------------------------------
+
+1. Store 'http' module in a valiable called 'http' by using require function
+2. Define a port
+3. Create a server user 'createServer' function.
+4. Make server to listen to the pre-defined port.
+
+Routing:
+-------
+
+1. Not all client requests are the same.
+2. We should creating a API that responds differently depending on the requested url path.
+
+Express.js:
+----------
+
+1. Web server for Node.js
+
+HTTP methods:
+-------------
+
+GET - Read
+POST - Create
+PUT - Update
+DELETE - Delete
+
+1. mongo atlasDB
+2. mongoose - npm (tool used to connect Node.js and MongoDB: MongoDB Object modeling tool)
+3. node + mongoDB connectivity
+4. POST, PUT, DELETE
+5. dotenv - Loads environment variables from .env file.
+
+For eg: You are running a shop. Shop has products. 
+
+Each produc has name, id, price, discount_price
+
+
+mongodb+srv://test:test@cluster0.xtxkf8s.mongodb.net/?retryWrites=true&w=majority
+
+
+mongoose - Object modelling:
+
+1. Derive a custom schema - It represents the structure of a particular document.
+2. Compile schema to model (To access and manipulate documents)
+3. Initialize a document
