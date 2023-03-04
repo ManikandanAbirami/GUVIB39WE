@@ -1,0 +1,11 @@
+1. Setup Express & MongoDB - Done
+2. User Model Creation - Done
+3. Register Route - Done
+4. Login Route - Done
+5. Import Routes - Done
+
+6. Creat React app
+7. Signup Component
+8. Login Component
+9. Main Component
+10. Assign Routes 
