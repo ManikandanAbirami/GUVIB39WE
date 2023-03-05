@@ -23,13 +23,14 @@ router.post("/", async (req, res) => {
     res.status(200).send({ data: token, message: "Logged in successfully" })
   } catch (error) {
     res.status(500).send({ message: "Internal Server Error!" });
+    console.log(error)
   }
 })
 
 const validate = (data) => {
   const schema = Joi.object({
     email: Joi.string().email().required().label("Email"),
-    password: Joi.string().required.label("Password")
+    password: Joi.string().required().label("Password")
   });
   return schema.validate(data);
 }

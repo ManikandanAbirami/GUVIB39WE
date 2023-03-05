@@ -4,8 +4,17 @@
 4. Login Route - Done
 5. Import Routes - Done
 
-6. Creat React app
+6. Creat React app - Done
 7. Signup Component
 8. Login Component
 9. Main Component
 10. Assign Routes 
+
+
+12345 - **&&%%$$
+pwd + SALT = 12345 + 10 = 1234501 = @@#$@#$@%
+12345 - **&&%%$$ = 1234105 = $&$%&$&
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9. - Header
+eyJfaWQiOiI2NDA0NzA3YTZkZjc3ZWYxNGE4MmJkZmMiLCJpYXQiOjE2NzgwMTMzMzYsImV4cCI6MTY3ODYxODEzNn0. - Payload
+cC07dXKaxTc8LbVFqqgCiKZBIhJRE-IOg4Bt9cedcmg - Secret Key
